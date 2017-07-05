@@ -1,7 +1,7 @@
 # mysql-study
  
 <ul>
-<li>重命名表
+<li>重命名表 <br/>
  ALTER TABLE 原名 RENAME (TO) 新名
  </li>
  </ul>
