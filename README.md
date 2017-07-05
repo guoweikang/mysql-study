@@ -1,7 +1,10 @@
 # mysql-study
-study mysql 
-重命名表
+ 
+<ul>
+<li>重命名表
  ALTER TABLE 原名 RENAME (TO) 新名
+ </li>
+ </ul>
 增加一列
 ALTER TABLE 表名 ADD COLUMN 列名 数据类型 约束；
 删除一列 
