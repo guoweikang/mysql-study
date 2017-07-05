@@ -1,12 +1,12 @@
 # mysql-study
  
-<ul>
+<ul style="list-style-type:square">
 <li>重命名表 <br/>
  ALTER TABLE 原名 RENAME (TO) 新名
  </li>
- </ul>
-增加一列
+<li>增加一列 <br/>
 ALTER TABLE 表名 ADD COLUMN 列名 数据类型 约束；
+</li>
 删除一列 
 ALTER TABLE 表名 DROP COLUMN 列名
 修改一列
@@ -39,3 +39,4 @@ SELECT 列 INTO OUTFILE ‘文件路径’ FROM 表名
 数据库备份
 
 mysqldump -u root 数据库名 （表名）>备份文件名
+</ul>
