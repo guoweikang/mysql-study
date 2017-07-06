@@ -39,4 +39,15 @@ SELECT 列 INTO OUTFILE ‘文件路径’ FROM 表名
 </li>
 <li>数据库备份<br/>
 mysqldump -u root 数据库名 （表名）>备份文件名
+</li>
+</li>
+<b> 进阶
+<li>对一组内容进行统计<br/>
+SELECT 列1,COUNT(*) FROM 表名 GROUP BY 列1
+</li>
+<li>年龄计算<br/>
+ SELECT name, birth, CURDATE(),TIMESTAMPDIFF(YEAR,birth,CURDATE()) AS age FROM pet;
+ SELECT name, birth, CURDATE(),(YEAR(CURDATE())-YEAR(birth))-(RIGHT(CURDATE(),5)<RIGHT(birth,5)) AS age   FROM pet;
+</li>
+
 </ul>
